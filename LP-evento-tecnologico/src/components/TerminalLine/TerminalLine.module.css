@@ -1,0 +1,125 @@
+/* Estilos base */
+p {
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+	line-height: 1.4;
+}
+
+/* Linha normal - texto verde padrão */
+.linhaNormal {
+	color: #00ff41;
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
+/* Linha de destaque único - texto vermelho com sombra */
+.linhaDestaqueUnico {
+	color: #ff0033;
+	text-shadow: 0 0 5px #ff0033;
+	font-size: 24px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+/* Linha de destaque em sequência - texto vermelho com sombra, sem margem extra */
+.linhaDestaqueSequencia {
+	color: #ff0033;
+	text-shadow: 0 0 5px #ff0033;
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
+/* Linha com cursor - cursor verde + texto vermelho */
+.linhaCursor {
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
+/* Linha com label - label vermelho + conteúdo verde */
+.linhaLabel {
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
+/* Linha com bullet - bullet verde + conteúdo verde */
+.linhaBullet {
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
+/* Linha de loading/carregamento - cursor verde + texto vermelho */
+.linhaLoading {
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
+/* Elementos específicos */
+
+/* Cursor - sempre verde com brilho */
+.cursor {
+	font-size: 24px;
+	color: #00ff41;
+	text-shadow: 0 0 5px #00ff41;
+	margin-right: 5px;
+}
+
+/* Conteúdo em destaque - vermelho com brilho */
+.conteudoDestaque {
+	color: #ff0033;
+	text-shadow: 0 0 5px #ff0033;
+}
+
+/* Conteúdo normal - verde */
+.conteudoNormal {
+	color: #ffffff;
+}
+
+/* Label - vermelho com brilho */
+.label {
+	color: #ff0033;
+	text-shadow: 0 0 5px #ff0033;
+	margin-right: 5px;
+}
+
+/* Descrição - branco com brilho verde */
+.description {
+	font-size: 24px;
+	color: #ffffff;
+	text-shadow: 0 0 5px #00ff41;
+	margin-left: 5px;
+}
+
+/* Classes de utilidade para casos específicos */
+.textoVermelho {
+	color: #ff0033;
+	text-shadow: 0 0 5px #ff0033;
+}
+
+.textoVerde {
+	color: #00ff41;
+	text-shadow: 0 0 5px #00ff41;
+}
+
+.textoBranco {
+	color: #ffffff;
+	text-shadow: 0 0 5px #00ff41;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+	p {
+		font-size: 18px;
+	}
+	.cursor,
+	.description,
+	.linhaNormal,
+	.linhaDestaqueUnico,
+	.linhaDestaqueSequencia,
+	.linhaCursor,
+	.linhaLabel,
+	.linhaBullet,
+	.linhaLoading {
+		font-size: 18px;
+	}
+}

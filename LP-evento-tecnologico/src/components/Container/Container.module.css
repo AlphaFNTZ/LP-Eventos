@@ -1,0 +1,21 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 15px;
+	gap: 20px;
+	width: 1200px;
+	height: 900px;
+	border: 3px solid #00ff41;
+	box-shadow: 0 0 5px #00ff41;
+	text-shadow: 0 0 4px #00ff41;
+	background: rgba(12, 12, 12, 0.5);
+	background-image: repeating-linear-gradient(
+		to bottom,
+		rgba(0, 255, 0, 0.05),
+		rgba(0, 255, 0, 0.05) 1px,
+		transparent 1px,
+		transparent 3px
+	);
+}

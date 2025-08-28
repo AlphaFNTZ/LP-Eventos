@@ -1,0 +1,31 @@
+.navBar {
+	height: 50px;
+	flex-shrink: 0;
+	background-color: #00ff41;
+	box-shadow: 0 0 5px #00ff41;
+	font-size: 24px;
+}
+.navBar ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+	list-style: none;
+	padding: 0 150px;
+}
+.navBar ul li button {
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-family: IBM Plex Mono, monospace;
+	font-weight: 700;
+	font-size: 1em;
+	color: #0c0c0c;
+	padding: 5px 5px;
+}
+.active button {
+	background-color: #0c0c0c !important;
+	color: #00ff41 !important;
+	text-shadow: 0 0 2px #00ff41;
+}

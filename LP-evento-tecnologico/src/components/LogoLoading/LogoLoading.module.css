@@ -1,0 +1,21 @@
+.logo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+	width: 960px;
+	margin-bottom: 50px;
+	gap: 20px;
+	.linha {
+		background-color: #ff0033;
+		width: 960px;
+		height: 3px;
+	}
+	img {
+		width: 960px;
+		height: 120px;
+	}
+	h1 {
+		font-size: 24px;
+	}
+}

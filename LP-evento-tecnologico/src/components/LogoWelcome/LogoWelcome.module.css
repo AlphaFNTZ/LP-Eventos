@@ -1,0 +1,16 @@
+.logo {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	margin-top: 250px;
+	gap: 10px;
+	h1 {
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 700;
+	}
+	img {
+		width: 900px;
+		height: 361px;
+	}
+}
