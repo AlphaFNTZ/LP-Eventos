@@ -10,13 +10,13 @@ const NavBar = () => {
 	const paginasPaths = [
 		"/sobre",
 		"/proposito",
-		"/equipe",
+		"/equipe/1",
 		"/participe",
 		"/contato",
 	];
 
 	const isPageActive = (path: string) => {
-		if (path === "/equipe") return currentPath.startsWith("/equipe");
+		if (path.startsWith("/equipe")) return currentPath.startsWith("/equipe");
 		return currentPath === path;
 	};
 
