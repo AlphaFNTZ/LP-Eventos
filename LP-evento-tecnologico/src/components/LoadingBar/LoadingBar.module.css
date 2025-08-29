@@ -1,6 +1,7 @@
 .loading {
 	display: flex;
 	flex-direction: column;
+	justify-self: flex-end;
 	align-self: center;
 	align-items: center;
 	width: 400px;
@@ -47,29 +48,3 @@
 		transform: translateX(530px);
 	}
 }
-
-/* .loading {
-	display: flex;
-	flex-direction: column;
-	align-self: center;
-	align-items: center;
-	width: 400px;
-	height: 76px;
-	gap: 10px;
-	p {
-		font-size: 24px;
-		color: #00ff41;
-	}
-	.loadingBar {
-		display: flex;
-		padding: 5px;
-		border: 3px solid #00ff41;
-		width: 100%;
-		height: 40px;
-	}
-	.loadingBarFill {
-		background-color: #00ff41;
-		width: 140px;
-		height: 100%;
-	}
-} */

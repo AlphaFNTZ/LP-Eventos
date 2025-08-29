@@ -66,29 +66,33 @@ export default function Home() {
 		<section className={style.home}>
 			{step === 1 && (
 				<Container>
-					<section>
-						{textosHome.linhas.slice(0, linhasVisiveis).map((linha, i) => (
-							<TerminalLine
-								key={i}
-								type={getTipoLinha(i)}
-								cursorText={getCursorText(i)}
-								content={linha.conteudo}
-							/>
-						))}
-					</section>
-					{linhasVisiveis === textosHome.linhas.length && (
-						<>
-							<LogoLoading content={textosHome.titulo} />
-							<LoadingBar />
-						</>
-					)}
+					<div className={style.loading}>
+						<section>
+							{textosHome.linhas.slice(0, linhasVisiveis).map((linha, i) => (
+								<TerminalLine
+									key={i}
+									type={getTipoLinha(i)}
+									cursorText={getCursorText(i)}
+									content={linha.conteudo}
+								/>
+							))}
+						</section>
+						{linhasVisiveis === textosHome.linhas.length && (
+							<>
+								<LogoLoading content={textosHome.titulo} />
+								<LoadingBar />
+							</>
+						)}
+					</div>
 				</Container>
 			)}
 			{step === 2 && <Container />}
 			{step === 3 && (
 				<Container>
-					<LogoWelcome content={textosHome.bemVindo} />
-					{/* <Button onClick={redirecionamento} content={textosHome.buttonWelcome} /> */}
+					<div className={style.logoWelcome}>
+						<LogoWelcome content={textosHome.bemVindo} />
+						{/* <Button onClick={redirecionamento} content={textosHome.buttonWelcome} /> */}
+					</div>
 				</Container>
 			)}
 		</section>

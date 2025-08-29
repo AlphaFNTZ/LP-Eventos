@@ -1,12 +1,14 @@
 .container {
 	display: flex;
-	justify-content: space-between;
 	flex-direction: column;
 	box-sizing: border-box;
 	padding: 15px;
 	gap: 20px;
-	width: 1200px;
-	height: 900px;
+	width: 100%;
+	max-width: 1200px;
+	height: 90%;
+	max-height: 900px;
+	margin: 0 auto;
 	border: 3px solid #00ff41;
 	box-shadow: 0 0 5px #00ff41;
 	text-shadow: 0 0 4px #00ff41;

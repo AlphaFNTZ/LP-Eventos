@@ -13,9 +13,8 @@
 .propositoContainer {
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+	padding: 50px 20px 0 20px;
 	height: 100%;
-	padding: 115px 20px 0 20px;
 	gap: 50px;
 }
 .paragrafos {
