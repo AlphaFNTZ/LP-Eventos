@@ -13,6 +13,7 @@
 	padding: 12px 20px;
 	font-size: 20px;
 	font-weight: 700;
+	font-family: IBM Plex Mono, monospace;
 	text-transform: uppercase;
 	border: 3px solid #00ff41;
 	background: transparent;
@@ -39,4 +40,10 @@
 .memberTab.inactive:hover {
 	background-color: rgba(0, 255, 65, 0.1);
 	box-shadow: 0 0 5px #00ff41;
+}
+
+@media (max-height: 900px) {
+	.memberTab {
+	font-size: 18px;
+	}
 }
