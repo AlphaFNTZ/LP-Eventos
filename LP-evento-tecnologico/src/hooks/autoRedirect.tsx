@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 export function useAutoRedirect(
 	to: string,
-	delay: number = 5000,
+	delay: number = 10000,
 	enabled: boolean = true
 ) {
 	const navigate = useNavigate();

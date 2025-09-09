@@ -13,7 +13,7 @@ const textosEquipe = {
 		{
 			id: "1",
 			descricao: {
-				name: "Gabriel Morais",
+				name: "Gabriel Moraes",
 				cargo: "Presidente",
 				especialidade: "Graduando em ciência da computação",
 				biografia:
